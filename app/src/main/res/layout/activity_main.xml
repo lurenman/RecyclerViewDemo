@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.example.administrator.recyclerviewdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="recyclerView展示" />
+    <TextView
+        android:id="@+id/tv_recyclerViewHeaderFoot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="recyclerView添加头部及尾部展示" />
+    <TextView
+        android:id="@+id/tv_itemdelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="recyclerView侧滑删除展示" />
+    <TextView
+        android:id="@+id/tv_LRecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:text="LRecyclerView展示" />
+</LinearLayout>

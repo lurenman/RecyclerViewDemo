@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="default_divider_height">2dp</dimen>
+    <dimen name="default_divider_padding">4dp</dimen>
+</resources>

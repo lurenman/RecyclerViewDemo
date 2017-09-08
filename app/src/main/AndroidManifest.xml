@@ -16,16 +16,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RecyclerViewActivity"/>
-        <activity android:name=".HeaderAndFootActivity"/>
-        <activity android:name=".ItemSlideDeleteActivity"/>
-        <activity android:name=".RecyclerSlideItem1Activity"/>
-        <activity android:name=".SwipeRecyclerViewActivity"/>
-        <activity android:name=".SlidingButtonViewActivity"/>
-        <activity android:name=".LRecyclerViewActivity"/>
-        <activity android:name=".LinearLayoutActivity"/>
-        <activity android:name=".EndlessStaggeredGridLayoutActivity"/>
-        <activity android:name=".SwipeDeleteActivity"/>
+        <activity android:name=".RecyclerViewActivity" />
+        <activity android:name=".HeaderAndFootActivity" />
+        <activity android:name=".ItemSlideDeleteActivity" />
+        <activity android:name=".RecyclerSlideItem1Activity" />
+        <activity android:name=".SwipeRecyclerViewActivity" />
+        <activity android:name=".SlidingButtonViewActivity" />
+        <activity android:name=".LRecyclerViewActivity" />
+        <activity android:name=".LinearLayoutActivity" />
+        <activity android:name=".EndlessStaggeredGridLayoutActivity" />
+        <activity android:name=".SwipeDeleteActivity" />
+        <activity android:name=".ListDragMenuActivity"/>
     </application>
 
 </manifest>

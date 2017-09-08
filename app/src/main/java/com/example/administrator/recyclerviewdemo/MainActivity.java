@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     private TextView tv_recyclerViewHeaderFoot;
     private TextView tv_itemdelete;
     private TextView tv_LRecyclerView;
+    private TextView tv_ListDragMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         tv_recyclerViewHeaderFoot = (TextView) findViewById(R.id.tv_recyclerViewHeaderFoot);
         tv_itemdelete = (TextView) findViewById(R.id.tv_itemdelete);
         tv_LRecyclerView = (TextView) findViewById(R.id.tv_LRecyclerView);
+        tv_ListDragMenu = (TextView) findViewById(R.id.tv_ListDragMenu);
     }
 
     private void initEvents() {
@@ -54,6 +56,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent=new Intent(MainActivity.this,LRecyclerViewActivity.class);
+                startActivity(intent);
+            }
+        });
+        tv_ListDragMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(MainActivity.this,ListDragMenuActivity.class);
                 startActivity(intent);
             }
         });
